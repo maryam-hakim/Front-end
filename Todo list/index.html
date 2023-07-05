@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    
+    <h1>To Do List</h1>
+
+    
+        <form action="">
+            <input type="text" placeholder="Type task here">
+            <button class="submit">
+                <i class="fa fa-plus"></i>
+            </button>
+
+            <select name="select" id="select" class="Selector">
+                <option class="option" value="All">All</option>
+                <option class="option"value="Completed">Completed</option>
+                <option class="option"value="Uncompleted">Uncompleted</option>
+            </select>
+            <div class="filter">
+              <i class="fa fa-filter"></i>
+            </div> 
+            
+        </form>
+
+        <ul class="todo">
+             <!-- <li>task1</li>
+            <i class="fa fa-trash"></i>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            <li>task2</li> -->
+        </ul>
+    
+        <script src="./main.js"></script>
+</body>
+</html>

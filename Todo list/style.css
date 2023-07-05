@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Dosis';
+    background: linear-gradient(to left,#e7f0fd , #6ba9ef);
+    
+}
+
+h1{
+    color: #fff;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 2%;
+}
+
+form{
+    width: 90%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: center;
+}
+
+form input{
+    flex-basis: 30%;
+    height: 39px;
+    font-size: 20px;
+    border: none;
+}
+
+input::placeholder{
+    font-family: 'Dosis';
+    padding-left: 10px;
+}
+
+input:focus{
+    outline: none;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+.submit{
+    width: 30px;
+    margin-right: 50px;
+    background-color: #6ba9ef;
+    border: none;
+    cursor: pointer;
+}
+
+.submit .fa{
+    color: #fff;
+    font-size: 20px;
+}
+
+select{
+    flex-basis: 10%;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;      
+    font-family: 'Dosis';
+    padding-left: 10px;
+    position: relative;
+    border: none;
+}
+
+select:focus{
+    outline: none;
+}
+
+option{
+    font-size: 14px;
+}
+
+.filter{
+    width: 35px;
+    height: 40px;
+    background-color: #6ba9ef;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.filter .fa-filter{
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+.todo{
+    transform: translateX(33%);
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.todo .todo-li{
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    list-style-type: none;
+    padding:9px 0 0 8px;
+    /* margin-top: 10px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+}
+
+.trashbutton{
+    width: 40px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    margin-left: 1px;
+}
+
+.trashbutton .fa-trash{
+    color: #fff;
+    font-size: 20px;
+}
+
+.checkbutton{
+    width: 40px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    margin-left: 1px;
+}
+
+.checkbutton .fa-check{
+    color: #fff;
+    font-size: 20px;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.listDiv{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  
+}
+
+
+

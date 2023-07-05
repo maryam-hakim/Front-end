@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 6em auto 200px 4rem 2rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.letters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+}
+
+.letters div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid blueviolet;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding-top: 9px;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.letters div:hover{
+    font-size: 2rem;
+    background-color: rgba(226, 214, 239, 0.8);
+}
+
+.image{
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.image img{
+    width: 100%;
+    display: block;
+}
+
+.clue p{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin: 20px auto 0;
+}
+
+.gameOver{
+    text-align: center;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.letters div.used{
+    background-color: rgba(226, 214, 239, 0.8);
+    opacity: 0.5;
+}
